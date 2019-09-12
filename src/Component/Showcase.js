@@ -37,8 +37,6 @@ export default function Showcase(){
                     date={date}
                     copyright={copyright}
                     />
-            
-
         </div>
     )//return
 }//close showcase
