@@ -17,6 +17,7 @@ font-size: 2rem;
 const ImgStyle = styled.img`
 border: 1px solid white;
 border-radius: 10px;
+box-shadow: 1px 5px 12px 1px rgba(255,255,255, 0.2);
 `;
 
 const Card = props => {
