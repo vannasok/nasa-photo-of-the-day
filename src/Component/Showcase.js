@@ -6,7 +6,7 @@ export default function Showcase(){
 
     const [title, settitle] = useState('');
     const [explanation, setexplanation] = useState('');
-    const [picUrl, setpicUrl] = useState('');
+    const [hdurl, sethdurl] = useState('');
     const [date, setdate] = useState('');
     const [copyright, setcopyright] = useState('');
 
@@ -18,7 +18,7 @@ export default function Showcase(){
             
             settitle(info.title);
             setexplanation(info.explanation);
-            setpicUrl(info.url);
+            sethdurl(info.hdurl);
             setdate(info.date);
             setcopyright(info.copyright);
 
@@ -33,7 +33,7 @@ export default function Showcase(){
             <Card 
                     title={title}
                     explanation={explanation}
-                    picUrl={picUrl}
+                    hdurl={hdurl}
                     date={date}
                     copyright={copyright}
                     />
